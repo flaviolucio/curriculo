@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flávio Lúcio Curado - Perfil</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    /* Cabeçalho */
+    .header {
+      background: #0b132b;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      font-size: 14px;
+    }
+
+    /* Layout principal */
+    .main-content {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    .left-column {
+      flex: 1;
+      padding: 20px;
+      background: #f9f9f9;
+      border-right: 1px solid #ddd;
+    }
+
+    .left-column h3, .right-column h3 {
+      font-size: 18px;
+      color: #0b132b;
+      margin-bottom: 10px;
+    }
+
+    .left-column p {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+
+    .right-column {
+      flex: 2;
+      padding: 20px;
+    }
+
+    /* Rodapé com colunas */
+    .footer {
+      display: flex;
+      flex-wrap: wrap;
+      background: #fff;
+      border-top: 2px solid #ddd;
+      padding: 20px;
+    }
+
+    .footer-section {
+      flex: 1;
+      padding: 10px 20px;
+    }
+
+    .footer-section h3 {
+      font-size: 18px;
+      color: #0b132b;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    .footer-section p, .footer-section ul {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .footer-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-section ul li {
+      margin-bottom: 5px;
+    }
+
+    .skills-chart {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .skill {
+      flex: 1;
+      text-align: center;
+      margin: 10px;
+    }
+
+    .skill .circle {
+      width: 80px;
+      height: 80px;
+      border: 5px solid #ef476f;
+      border-radius: 50%;
+      line-height: 70px;
+      text-align: center;
+      color: #0b132b;
+      font-weight: bold;
+      font-size: 16px;
+      margin: auto;
+    }
+
+    .skill h4 {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Cabeçalho -->
+    <div class="header">
+      <h1>Flávio Lúcio Curado</h1>
+      <p>Analista de Sistemas | Desenvolvedor Web</p>
+    </div>
+
+    <!-- Layout principal -->
+    <div class="main-content">
+      <div class="left-column">
+        <h3>Contato</h3>
+        <p><strong>Email:</strong> flavioluciocurado@gmail.com</p>
+        <p><strong>Telefone:</strong> (21) 99840-6354</p>
+
+        <h3>Idiomas</h3>
+        <ul>
+          <li>Português - Nativo</li>
+          <li>Inglês - Avançado</li>
+        </ul>
+
+        <h3>Hobbies</h3>
+        <ul>
+          <li>Fotografia</li>
+          <li>Música</li>
+        </ul>
+      </div>
+
+      <div class="right-column">
+        <h3>Resumo Profissional</h3>
+        <p>Experiência com suporte técnico, redes, manutenção de computadores, desenvolvimento web, entre outros. Trabalhando em projetos de alto impacto e eficiência.</p>
+      </div>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="footer">
+      <div class="footer-section">
+        <h3>Educação</h3>
+        <ul>
+          <li>Graduação em Tecnologia da Informação (Incompleto)</li>
+          <li>Técnico em Informática</li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Skills</h3>
+        <div class="skills-chart">
+          <div class="skill">
+            <div class="circle">90%</div>
+            <h4>Linux</h4>
+          </div>
+          <div class="skill">
+            <div class="circle">85%</div>
+            <h4>Redes</h4>
+          </div>
+          <div class="skill">
+            <div class="circle">80%</div>
+            <h4>Windows</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h3>Realizações</h3>
+        <p>Implantação de sistemas de backup e monitoramento de redes. Criação de portais em WordPress e suporte a servidores empresariais.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

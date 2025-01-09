@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Perfil profissional de Flávio Lúcio Curado, Analista de Sistemas com experiência em desenvolvimento web, suporte técnico e infraestrutura.">
+<meta name="keywords" content="Flávio Lúcio Curado, Analista de Sistemas, Desenvolvimento Web, Suporte Técnico, Infraestrutura, ITIL, Redes">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flávio Lúcio Curado - Perfil</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <style>
+  /* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos Gerais */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Cabeçalho */
+.header {
+  background: linear-gradient(to right, #0b132b, #3c6e71);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 40px 20px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-right: 20px;
+}
+
+.header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 14px;
+  color: #b0c4de;
+}
+
+/* Sub-cabeçalho com seções coloridas */
+.sub-header {
+  display: flex;
+  margin-top: 20px;
+}
+
+.sub-header div {
+  flex: 1;
+  text-align: center;
+  padding: 15px 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.sub-header .education {
+  background: #ef476f;
+}
+
+.sub-header .experience {
+  background: #06d6a0;
+}
+
+/* Blocos de conteúdo */
+.block {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.block h3 {
+  color: #0b132b;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.block p {
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Botões */
+.button-link {
+  display: inline-block;
+  background-color: #06d6a0;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+  background-color: #04c18b;
+}
+
+/* Conteúdo da página */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Estilos para os blocos na parte esquerda (Dados Pessoais, Formação) */
+.left-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Estilos para os blocos na parte direita (Experiência Profissional, Skills) */
+.right-content {
+  flex: 2;
+  padding: 20px;
+}
+
+/* Gráfico de Skills */
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 8px;
+  height: 25px;
+}
+
+.skill-bar span {
+  display: block;
+  height: 100%;
+  text-align: center;
+  line-height: 25px;
+  color: white;
+  border-radius: 8px;
+}
+
+.linux { background-color: #06d6a0; width: 50%; }
+.redes { background-color: #ef476f; width: 90%; }
+.windows { background-color: #f0a500; width: 90%; }
+.php { background-color: #118ab2; width: 60%; }
+.itil { background-color: #6c757d; width: 70%; }
+.vm { background-color: #f0a500; width: 80%; }
+.firewall { background-color: #d32f2f; width: 75%; }
+.office365 { background-color: #0078d4; width: 85%; }
+.antivirus { background-color: #9c27b0; width: 70%; }
+.ad { background-color: #1976d2; width: 85%; }
+.voip { background-color: #0288d1; width: 50%; }
+.wordpress { background-color: #ff5722; width: 80%; }
+.sql { background-color: #4caf50; width: 75%; }
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .sub-header {
+    flex-direction: column;
+  }
+
+  .left-content, .right-content {
+    flex: 1 1 100%;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Cabeçalho -->
+    <div class="header">
+      <img src="profile.png" alt="Foto do Perfil">
+      <div>
+        <h1>Flávio Lúcio Curado</h1>
+        <p>Endereço: Rio de Janeiro, RJ</p>
+        <p>Telefone: (21) 99840-6354 | E-mail: flavioluciocurado@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- Sub-header com seções coloridas -->
+    <div class="sub-header">
+      <div class="education">EDUCAÇÃO</div>
+      <div class="experience">EXPERIÊNCIA</div>
+    </div>
+
+    <!-- Conteúdo -->
+    <div class="content">
+      <!-- Lado esquerdo -->
+      <div class="left-content">
+        <!-- Bloco 1: Dados Pessoais -->
+        <div class="block">
+          <h3>Dados Pessoais</h3>
+          <p>Data de Nascimento: 08/06/1981</p>
+          <p>Estado Civil: Solteiro</p>
+        </div>
+
+        <!-- Bloco 2: Formação -->
+        <div class="block">
+          <h3>Formação</h3>
+          <p>Centro Universitário Internacional UNINTER<br>Graduação em Tecnologia e Análise em Desenvolvimento de Sistemas - Incompleto.</p><br>
+          <p>FIS - Faculdades Integradas Simonsen<br>Graduação em Tecnologia e Análise em Desenvolvimento de Sistemas - Incompleto.</p><br>
+          <p>Colégio Técnico Excelsior<br>Curso Técnico em Informática - Concluído em 12/2006.</p>
+        </div>
+      </div>
+
+      <!-- Lado direito -->
+      <div class="right-content">
+        <!-- Bloco 3: Experiência Profissional -->
+        <div class="block">
+          <h3>Experiência Profissional</h3>
+          <p>
+            <a href="universidadesaojose.html" class="button-link">Universitário São José</a><br>Analista de Sistema – Início: 30/08/2021
+          </p>
+          <p>
+            <a href="secretariamunicipaldeeducacaodeitaguai.html" class="button-link">Secretaria Municipal de Educação de Itaguaí</a><br>Assessor de Assuntos Tecnológicos – 02/01/2017 a 09/03/2020
+          </p>
+          <p>
+            <a href="institutoterrazul.html" class="button-link">Instituto Terrazul</a><br>Desenvolvedor Web – 09/06/2014 a 31/05/2016
+          </p>
+          <p>
+            <a href="pontosaude.html" class="button-link"> REDE DE DROGARIAS PONTO SAÚDE</a><br>Técnico de Informática – 01/10/2007 a 11/11/2013
+          </p>
+        </div>
+
+        <!-- Bloco 4: Skills -->
+        <div class="block">
+          <h3>Skills</h3>
+          <div class="skills">
+            <div class="skill-bar"><span class="linux">Linux - 50%</span></div>
+            <div class="skill-bar"><span class="redes">Redes - 90%</span></div>
+            <div class="skill-bar"><span class="windows">Windows - 90%</span></div>
+            <div class="skill-bar"><span class="php">PHP - 60%</span></div>
+            <div class="skill-bar"><span class="itil">ITIL/COBIT - 70%</span></div>
+            <div class="skill-bar"><span class="vm">Máquinas Virtuais - 80%</span></div>
+            <div class="skill-bar"><span class="firewall">Firewall - 75%</span></div>
+            <div class="skill-bar"><span class="office365">Office 365 - 85%</span></div>
+            <div class="skill-bar"><span class="antivirus">Servidor de Antivírus - 70%</span></div>
+            <div class="skill-bar"><span class="ad">Active Directory - 85%</span></div>
+            <div class="skill-bar"><span class="voip">Telefonia e VoIP - 50%</span></div>
+            <div class="skill-bar"><span class="wordpress">WordPress - 80%</span></div>
+            <div class="skill-bar"><span class="sql">SQLServer - 75%</span></div>
+          </div>
+        </div>
+        <div class="block">
+          <!-- Links com ícones do LinkedIn e GitHub, abrindo em novas abas -->
+          <a href="https://www.linkedin.com/in/flaviocurado" class="button-link" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="https://github.com/flaviocurado" class="button-link" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
